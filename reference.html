@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="loader.css">
+    <link rel="stylesheet" type="text/css" href="responsive_card.css">
+    <title>Chronicles Beyond Time</Time></title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            position: relative;
+            min-height: 190vh;
+        }
+        header {
+            background-color: #8B5A2B;
+            color: #F5DEB3;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5em;
+            font-family: 'Times New Roman', Times, serif;
+            letter-spacing: 1px;
+            text-shadow: 2px 2px #4E342E;
+        }
+        /* Make the nav bar sticky */
+        nav {
+            background-color: #6B4226;
+            padding: 10px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            color: #FFE4B5;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+        nav a:hover {
+            color: #FFF8DC;
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 30px;
+        }
+
+        .post {
+            background-color: #fff;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .post h2 {
+            margin-bottom: 10px;
+            color: #6B4226;
+        }
+        .post p {
+            margin-bottom: 20px;
+        }
+        .post .read-more {
+            background-color: #4E342E;
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .post .read-more:hover {
+            background-color: #5D4037;
+        }
+
+
+        footer {
+            background-color: #4E342E;
+            color: #FFE4B5;
+            text-align: center;
+            padding: 15px;
+            font-size: 0.9em;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        /* Background styling with blur effect */
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('picture/backgroundImage2.png');
+            background-size: cover;
+            background-position: center;
+            filter: blur(8px); /* Adjust the blur intensity here */
+            z-index: -1;
+        }
+        h1 {
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+<body>
+    <!-- Loader element -->
+    <div id="loader">
+        <span>Loading...</span>
+    </div>
+
+    <header>
+        <h1>Chronicles Beyond Time</h1>
+    </header>
+
+    <nav class="navbar">
+        <ul>
+            <a href="index.html">Home</a>
+            <a href="blog.html">Blogs</a>
+            <a href="about.html">About</a>
+            <a href="reference.html">References</a>
+            <a href="members.html">Members</a>
+        </ul>
+    </nav>
+
+    <div class="card-container">
+        <div class="card">
+            <img src="BOHOL.png">
+            <div class="card-content">
+                <h1>Chocolate Hills</h1>
+                <p>Reference and Sources</p>
+                <a href="reference_Chocolate_Hills.html" class="card-button">Read More</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="picture/sandugo.png">
+            <div class="card-content">
+                <h1>Sandugo Festival</h1>
+                <p>Reference and Sources</p>
+                <a href="reference_sandugoFestival.html" class="card-button">Read More</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="picture/boholstory.png">
+            <div class="card-content">
+                <h1>Bohol and its Folktale</h1>
+                <p>Reference and Sources</p>
+                <a href="reference_BoholStory.html" class="card-button">Read More</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="picture/boholmoseum.png">
+            <div class="card-content">
+                <h1>Bohol National Museum</h1>
+                <p>Reference and Sources</p>
+                <a href="reference_boholmuseum.html" class="card-button">Read More</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="picture/tuba.jpg">
+            <div class="card-content">
+                <h1>Tuba</h1>
+                <p>Reference and Sources</p>
+                <a href="reference_Tuba.html" class="card-button">Read More</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="picture/baclayon_church.jpg">
+            <div class="card-content">
+                <h1>Baclayon Church</h1>
+                <p>Reference and Sources</p>
+                <a href="reference_baclayon_church.html" class="card-button">Read More</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="picture/boholtextile.jpg">
+            <div class="card-content">
+                <h1>Bohol Textile</h1>
+                <p>Reference and Sources</p>
+                <a href="reference_boholTextile.html" class="card-button">Read More</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; STEM DOS VALKYRIES. Performance task in UCSP.</p>
+    </footer>
+
+    <script src="laoderjs.js"></script>
+</body>
+</html>
+

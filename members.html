@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="loader.css">
+    <link rel="stylesheet" href="member_section.css">
+    <title>Chronicles Beyond Time</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-image: url('picture/About_background.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+        }
+        header {
+            background-color: #8B5A2B;
+            color: #F5DEB3;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.8em;
+            font-family: 'Times New Roman', Times, serif;
+            letter-spacing: 1px;
+            text-shadow: 2px 2px #4E342E;
+        }
+        /* Sticky Navbar */
+        nav {
+            background-color: #6B4226;
+            padding: 10px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            color: #FFE4B5;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+        nav a:hover {
+            color: #FFF8DC;
+            text-decoration: underline;
+        }
+
+        /* Content Styles */
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9); /* Slightly opaque background */
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .post {
+            background-color: #fff;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .post h2 {
+            margin-bottom: 10px;
+            color: #6B4226;
+        }
+        .post p {
+            margin-bottom: 20px;
+        }
+        .post .read-more {
+            background-color: #4E342E;
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .post .read-more:hover {
+            background-color: #5D4037;
+        }
+        footer {
+            background-color: #4E342E;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 0.9em;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        h1 {
+            font-family: 'Times New Roman', Times, serif;
+        }
+        /* Team Section Styles */
+        .team-section {
+            text-align: center;
+            padding: 50px 0;
+            color: #333;
+        }
+        .team-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .team-member {
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            padding: 20px;
+            width: 200px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .team-member img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .team-member h3 {
+            margin: 15px 0 5px;
+            color: #333;
+        }
+        .team-member p {
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        .team-section h1{
+          font-family: serif;
+          font-size: 2.5em;
+          color: #333;
+        }
+    </style>
+</head>
+<body>
+
+  <!-- Loader element -->
+  <div id="loader">
+    <span>Loading...</span>
+  </div>
+
+    <header>
+        <h1>Chronicles Beyond Time</h1>
+    </header>
+
+    <nav class="navbar">
+        <ul>
+            <a href="index.html">Home</a>
+            <a href="blog.html">Blogs</a>
+            <a href="about.html">About</a>
+            <a href="reference.html">References</a>
+            <a href="members.html">Members</a>
+        </ul>
+    </nav>
+
+    <div class="gradient-background">
+        <section class="team-section">
+            <h1>Meet Our Team</h1>
+            <div class="team-container">
+              <!-- Team Member Template -->
+              <div class="team-member">
+                <img src="picture/Renz.png" alt="Team Member 1">
+                <h3>Renz Joseph Sagaral</h3>
+              </div>
+              <!-- Add 19 more team members as shown here -->
+              <!-- Each team member div can be duplicated and modified with unique info -->
+              <div class="team-member">
+                <img src="picture/Cyril.jpg" alt="Team Member 1">
+                <h3>Cyril O. Mejorada</h3>
+                
+              </div>
+              <div class="team-member">
+                <img src="picture/archelie.png" alt="Team Member 1">
+                <h3>Archelie F. Cabuyoc</h3>
+            
+              </div>
+              <div class="team-member">
+                <img src="picture/Barry.jfif" alt="Team Member 1">
+                <h3>Barry Magallones Barol</h3>
+                
+              </div>
+              <div class="team-member">
+                <img src="picture/Ayeisha.jpg" alt="Team Member 1">
+                <h3>Ayeisha Christine Pineda</h3>
+                
+              </div>
+              <div class="team-member">
+                <img src="picture/alred.jpg" alt="Team Member 1">
+                <h3>Alred Apor Ceño</h3>
+                
+              </div>
+              <div class="team-member">
+                <img src="picture/Charmyne.jpg" alt="Team Member 1">
+                <h3>Charmyne Jean Tan</h3>
+                
+              </div>
+              <div class="team-member">
+                <img src="picture/Monje.jpg" alt="Team Member 1">
+                <h3>Ella Monje</h3>
+                
+              </div>
+              <div class="team-member">
+                <img src="picture/minoza.jfif" alt="Team Member 1">
+                <h3>Hub Reyver Miñoza</h3>
+                
+              </div>
+              <div class="team-member">
+                <img src="picture/Udtohan.jfif" alt="Team Member 1">
+                <h3>Jen Claire Udtohan</h3>
+                
+              </div>
+              <div class="team-member">
+                <img src="picture/jinayon.jfif" alt="Team Member 1">
+                <h3>John David Jinayon</h3>
+                
+              </div>
+              <div class="team-member">
+                <img src="picture/karylle.jfif" alt="Team Member 1">
+                <h3>Karylle Reganon</h3>
+                
+              </div>
+              <div class="team-member">
+                <img src="picture/Painagan.png" alt="Team Member 1">
+                <h3>Kris Lorence Painagan</h3>
+                
+              </div>
+              <div class="team-member">
+                <img src="picture/Nitay.jpg" alt="Team Member 1">
+                <h3>Nitay Glench Francisco</h3>
+                
+                
+              </div>
+              <div class="team-member">
+                <img src="picture/Luna.jpg" alt="Team Member 1">
+                <h3>Phoebe Eula Luna</h3>
+                
+              </div>
+              <div class="team-member">
+                <img src="picture/Cassandra.jpg" alt="Team Member 1">
+                <h3>Princess Cassandra</h3>
+                
+              </div>
+              <div class="team-member">
+                <img src="picture/zayin.JPG" alt="Team Member 1">
+                <h3>Zayin Pich Dablo</h3>
+                
+              </div>
+              <div class="team-member">
+                <img src="picture/Vynz.jfif" alt="Team Member 1">
+                <h3>Vynz Iyog</h3>
+                
+              </div>
+              <div class="team-member">
+                <img src="picture/pilongo.jpeg" alt="Team Member 1">
+                <h3>Geela Marie Echavez</h3>
+                
+              </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; STEM DOS VALKYRIES. Performance task in UCSP.</p>
+    </footer>
+
+    <script src="laoderjs.js"></script>
+</body>
+</html>

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="loader.css">
+    <link rel="stylesheet" href="blog_background_photo.css">
+    <title>Chronicles Beyond Time</title>
+    <style>
+                * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            min-height: 210vh;
+        }
+        /* Header with Chocolate Hills theme */
+        header {
+            background-color: #8B5A2B; /* Earthy brown to resemble Chocolate Hills soil */
+            color: #F5DEB3; /* Light wheat color for contrast */
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.8em;
+            font-family: 'Times New Roman', Times, serif;
+            letter-spacing: 1px;
+            text-shadow: 2px 2px #4E342E; /* Slight shadow for depth */
+        }
+
+        /* Sticky Navigation Bar */
+        nav {
+            background-color: #6B4226; /* Darker brown for contrast */
+            padding: 10px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            color: #FFE4B5; /* Light, sandy color */
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+        nav a:hover {
+            color: #FFF8DC; /* Light cream on hover */
+            text-decoration: underline;
+        }
+
+        /* Main content styling */
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 50px;
+        }
+        .post {
+            background-color: #fff;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .post h2 {
+            margin-bottom: 10px;
+            color: #6B4226;
+        }
+        .post p {
+            margin-bottom: 20px;
+        }
+        .post .read-more {
+            background-color: #4E342E;
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .post .read-more:hover {
+            background-color: #5D4037;
+        }
+
+        /* Footer styling */
+        footer {
+            background-color: #4E342E; /* Deep brown for footer */
+            color: #FFE4B5;
+            text-align: center;
+            padding: 15px;
+            font-size: 0.9em;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        /* Background Image */
+        body {
+            background-image: url('picture/About_background.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+        }  
+        h1{
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <!-- Loader element -->
+    <div id="loader">
+        <span>Loading...</span>
+    </div>
+
+    <header>
+        <h1>Chronicles Beyond Time</h1>
+    </header>
+
+    <nav class="navbar">
+        <ul>
+            <a href="index.html">Home</a>
+            <a href="blog.html">Blogs</a>
+            <a href="about.html">About</a>
+            <a href="reference.html">References</a>
+            <a href="members.html">Members</a>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="post" style="background-image: url('BOHOL.png');">
+            <h2>CHOCOLATE HILLS</h2>
+            <p>Explore the uniqueness of Chocolate Hills</p>
+            <a href="Chocolate_hills_arcticle.html" class="read-more">Read More</a>
+        </div>
+
+        <div class="post" style="background-image: url('picture/sandugo.png');">
+            <h2>SANDUGO FESTIVAL</h2>
+            <p>The celebration of Sandugo Festival</p>
+            <a href="Sandugo_article.html" class="read-more">Read More</a>
+        </div>
+
+        <div class="post" style="background-image: url('picture/boholstory.png');">
+            <h2>Bohol and its Folktale</h2>
+            <p>Witness how the bohol emerges from the see and got its name</p>
+            <a href="Bohol_origin_article.html" class="read-more">Read More</a>
+        </div>
+
+        <div class="post" style="background-image: url('picture/boholmoseum.png');">
+            <h2>Bohol National Museum</h2>
+            <p>Witness the wonder the Bohol Museum has to offer</p>
+            <a href="Bohol_museum_aritcle.html" class="read-more">Read More</a>
+        </div>
+
+        <div class="post" style="background-image: url('picture/tuba.jpg');">
+            <h2>Creation of Tuba</h2>
+            <p>The creation of Tuba and where it originated</p>
+            <a href="Tuba_article.html" class="read-more">Read More</a>
+        </div>
+
+        <div class="post" style="background-image: url('picture/baclayon_church.jpg');">
+            <h2>Baclayon Church</h2>
+            <p>The one of Oldest Catholic Church of Bohol</p>
+            <a href="baclayon_church_article.html" class="read-more">Read More</a>
+        </div>
+        
+        <div class="post" style="background-image: url('picture/boholtextile.jpg');">
+            <h2>Bohol Textile</h2>
+            <p>Witness amazing patern the bohol community has to offer</p>
+            <a href="bohol_textile_article.html" class="read-more">Read More</a>
+        </div>
+        
+    </div>
+    
+
+
+
+    <footer>
+        <p>&copy; STEM DOS VALKYRIES. Performance task in UCSP.</p>
+    </footer>
+
+    <script src="laoderjs.js"></script>
+</body>
+</html>
+
